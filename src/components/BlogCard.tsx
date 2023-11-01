@@ -5,7 +5,7 @@ import React from 'react'
 const BlogCard = () => {
   return (
     <div className='rounded-lg shadow-md p-4 mb-4 overflow-hidden border border-gray-600 cursor-pointer'>
-        <Link href={"/"} >
+        <Link href={"/blog"} >
             <div className="">
                 <Image layout='fill' objectFit='cover' src={""} alt={""} className='rounded-t-lg' />
             </div>
