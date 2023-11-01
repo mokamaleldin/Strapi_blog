@@ -20,8 +20,8 @@ const page = () => {
             </p>
             <div className="mt-4 flex items-center text-gray-400">
                 <span className="text-sm">
-                    Published on{""}
-                    {"date 1-11-2023"}
+                    Published on date:{""}
+                    {" 1-11-2023"}
                 </span>
             </div>
         </div>
