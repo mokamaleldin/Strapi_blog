@@ -1,3 +1,4 @@
+"use client"
 // this is the container for all the blog cards
 import React from 'react'
 import BlogCard from './BlogCard'

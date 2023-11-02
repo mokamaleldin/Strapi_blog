@@ -22,7 +22,7 @@ async function fetchBlogs() {
     headers: {
       Authorization: `Bearer ${process.env.STRAPI_API_TOKEN}`,
     },
-  };
+  }; 
 
   try {
     const res = await fetch("http://localhost:1337/api/blogs?populate=*", options);
